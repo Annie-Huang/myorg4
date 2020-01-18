@@ -40,4 +40,5 @@ C:\react\myorg4>npm install --save-dev @nrwl/express
 C:\react\myorg4>nx g @nrwl/express:application api --frontend-project frontend
 ? In which directory should the node application be generated?    << click enter
 
+C:\react\myorg4>nx g @nrwl/workspace:library data
 
