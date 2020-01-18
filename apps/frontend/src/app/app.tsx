@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 
 import './app.css';
 
@@ -13,6 +13,11 @@ interface Todo {
 export const App = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
 
+  useEffect(() => {
+    fetch('/api/todos')
+      .then(_ => _.json())
+      .then(setTodos);
+  }, []);
 
   /*
    * Replace the elements below with your own.
