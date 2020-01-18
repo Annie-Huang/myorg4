@@ -31,7 +31,8 @@
   "dependencies": {
     "document-register-element": "1.13.1",
     "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react-dom": "16.12.0",
+    "express": "4.17.1"
   },
   "devDependencies": {
     "@babel/preset-react": "7.7.4",
@@ -62,6 +63,8 @@
     "ts-jest": "24.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.5.3",
+    "@nrwl/node": "8.11.2",
+    "@types/express": "4.17.0"
   }
 }
