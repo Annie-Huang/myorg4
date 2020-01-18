@@ -4,10 +4,11 @@ import './app.css';
 
 import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
+import {Todo} from '@myorg4/data';
 
-interface Todo {
-  title: string;
-}
+// interface Todo {
+//   title: string;
+// }
 
 
 export const App = () => {

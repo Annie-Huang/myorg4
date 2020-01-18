@@ -4,12 +4,13 @@
  */
 
 import * as express from 'express';
+import {Todo} from '@myorg4/data';
 
 const app = express();
 
-interface Todo {
-  title: string;
-}
+// interface Todo {
+//   title: string;
+// }
 
 const todos: Todo[] = [{ title: 'Todo 1' }, { title: 'Todo 2' }];
 
