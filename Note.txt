@@ -4,7 +4,7 @@ https://github.com/Annie-Huang/myorg4
 C:\react\myorg4>npm run start:frontend    http://localhost:4200/
 C:\react\myorg4>npm run start:api         http://localhost:3333/api
                                           http://localhost:3333/api/todos
-
+C:\react\myorg4>nx dep-graph              http://localhost:4211/
 
 ==========================================================================
 
@@ -42,3 +42,4 @@ C:\react\myorg4>nx g @nrwl/express:application api --frontend-project frontend
 
 C:\react\myorg4>nx g @nrwl/workspace:library data
 
+C:\react\myorg4>nx dep-graph
