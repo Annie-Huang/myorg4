@@ -1,6 +1,8 @@
 https://nx.dev/react/fundamentals/build-full-stack-applications
 https://github.com/Annie-Huang/myorg4
 
+C:\react\myorg4>npm run start:frontend    http://localhost:4200/
+C:\react\myorg4>npm run start:api         http://localhost:3333/api
 
 
 ==========================================================================
