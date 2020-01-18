@@ -5,8 +5,11 @@
   "scripts": {
     "nx": "nx",
     "start": "nx serve",
+    "start:frontend": "nx serve frontend",
     "build": "nx build",
+    "build:frontend": "nx build frontend",
     "test": "nx test",
+    "test:frontend": "nx test frontend",
     "lint": "nx workspace-lint && nx lint",
     "e2e": "nx e2e",
     "affected:apps": "nx affected:apps",
