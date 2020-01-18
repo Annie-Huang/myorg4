@@ -21,6 +21,7 @@ npx: installed 173 in 21.141s
   Angular CLI  [Extensible CLI for Angular applications. Recommended for Angular projects.]
 
 
+C:\react\myorg4>npm install --save-dev @nrwl/react
 
 
 
