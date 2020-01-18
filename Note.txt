@@ -33,6 +33,6 @@ C:\react\myorg4>nx g @nrwl/react:application frontend
 ? Would you like to add React Router to this application? (y/N) N
 
 
-
+C:\react\myorg4>npm install --save-dev @nrwl/express
 
 
